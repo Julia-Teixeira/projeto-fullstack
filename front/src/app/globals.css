@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-color-white: #ffffff;
+  --color-purple-100: #ede9f2;
+  --color-purple-200: #ded0f2;
+  --color-purple-300: #d2bbf2;
+  --color-purple-400: #ae8fd9;
+  --color-purple-500: #8e6bbf;
+  --color-purple-600: #4a1259;
+  --color-purple-700: #350c40;
+  --color-purple-800: #200726;
+}
+.text-style-titulo {
+  font-size: 40px;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+.text-style-nome-do-contato {
+  font-size: 24px;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+.text-style-informacoes-do-contato {
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+body {
+  background-image: url("../image/bg-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
